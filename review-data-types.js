@@ -20,6 +20,30 @@ console.log(para1UsingSelector);
 para1.style.color = 'orange';
 
 var btn = document.getElementsByClassName('button'); // This is not a  query selector so specifics are not needed
-console.log(btnUsingSelector);
+console.log('button');
 btn[0].style.padding = '10px';
 btn[0].style.fontSize = '22px';
+
+// var a = 10;
+// var b = 8;
+
+// var sum = a+b;
+// console.log(sum);
+
+// var str1 = 'Emily';
+// var str2 = 'Fielding';
+// var c = true;
+// var d = false;
+// var arr1 = ['blue', 'green', 'black'];
+// var arr2 = [ 'beach', 'lake', 'ocean', 'river'];
+// var address = {
+//     number: 2132,
+//     street: 'Golden',
+//     city: 'Clovis',
+// };
+
+// var kids = {
+//     son: 'Ashton',
+//     daughter: 'Sadie',
+// };
+
