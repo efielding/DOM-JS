@@ -72,3 +72,11 @@ console.log(arrUsers[1]);
 console.log(arrUsers[2]);
 console.log(arrUsers[3]);
 console.log(arrUsers[4]);
+
+
+excludedName = ['poopface', 'idoit'];
+var isExcluded = excludedName.find(function(excluded){
+    return excluded === name;
+});
+
+var newIsExcluded = excluded.find((excluded)=> excluded === name);
